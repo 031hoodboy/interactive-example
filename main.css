@@ -54,6 +54,7 @@
   width: 100vw;
   height: 100vh;
 }
+
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -62,6 +63,7 @@
   transform-origin: top left;
   transform: rotate(90deg) translateY(-100vh);
 }
+
 .outer-wrapper {
   width: 100vh;
   height: 100vw;
@@ -89,4 +91,9 @@
 
 .slide4 {
   background-color: yellow;
+}
+
+.footer {
+  width: 100vw;
+  height: 200vh;
 }

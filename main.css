@@ -49,3 +49,44 @@
   left: 65%;
   background-color: violet;
 }
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg);
+  transform-origin: top left;
+  transform: rotate(90deg) translateY(-100vh);
+}
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  transform: rotate(-90deg) translateX(-100vh);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.slide1 {
+  background-color: thistle;
+}
+
+.slide2 {
+  background-color: gray;
+}
+
+.slide3 {
+  background-color: green;
+}
+
+.slide4 {
+  background-color: yellow;
+}
